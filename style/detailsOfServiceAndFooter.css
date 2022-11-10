@@ -1,0 +1,61 @@
+section.detailsOfServices {
+    background-image: url('../assets/details-of-service/bg-pink-footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52.5rem;
+    max-width: 90rem;
+    width: 90rem;
+    margin: 9.5rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+section.detailsOfServices div.detailsOfServicesText {
+    width: 80rem;
+    height: 10rem;
+    margin: 5rem auto 0 auto; 
+    display: flex;
+    gap: 10rem;
+    
+   
+}
+
+section.detailsOfServices h2 {
+    font: 600 2.5rem var(--font-poppins);
+    line-height: 3rem;
+    color: var(--dark-low-color);
+    width: 30rem;
+    height: 9rem;
+
+}
+
+section.detailsOfServices ul.detailsOfServicesList {
+    width: 36.5rem;
+    height: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.detailsOfServices ul.detailsOfServicesList li {
+    font: 400 1.1rem var(--font-poppins);
+    color: var(--dark-low-color-);
+    width:41rem;
+}
+
+section.detailsOfServices ul.detailsOfServicesList li img {
+    margin-right: 1.2rem;
+}
+
+footer {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font: 400 1.2rem var(--font-montserrat);
+    color: var(--default-low-color);
+}

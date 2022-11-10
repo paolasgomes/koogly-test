@@ -1,0 +1,45 @@
+div.titleSectionCards h2 {
+    font: 600 2.5rem var(--font-poppins);
+    width: 45rem;
+    height: 6rem;
+
+    margin: -70px auto 0;
+    text-align: center;
+    line-height: 3rem;
+}
+
+section.moreInformation {
+    display: flex;
+    gap: 2rem;
+    padding-top: 7rem;
+    justify-content: center;
+
+}
+
+div.moreInformationCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.5rem;
+    height: 28rem;
+    background-color: var(--light-yellow-color);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding-top: 2.5rem;
+    text-align: center;
+
+}
+
+div.moreInformationCard h3 {
+    font: 600 1.2rem var(--font-poppins);
+    padding: 1rem 0;
+}
+
+div.moreInformationCard p {
+    font: 500 .9rem var(--font-montserrat);
+    color: var(--dark-low-color);
+    width: 16rem;
+    height: 5rem;
+    padding-left: 1rem;
+    line-height: 1.6rem;
+}

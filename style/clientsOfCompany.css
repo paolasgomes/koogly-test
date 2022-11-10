@@ -1,0 +1,70 @@
+section.clientsOfCompany {
+    background-image: url('../assets/clients-of-company/bg-blue-transparent.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 9rem auto 0 auto;
+    height: 40rem;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+section.clientsOfCompany h2 {
+    font: 600 2.5rem var(--font-poppins);
+    width: 38rem;
+    height: 3rem;
+    margin: 0 auto;
+    line-height: 3rem;
+    padding-top: 15rem;
+
+    
+}
+
+section.clientsOfCompany div.clientsImage {
+    display: flex;
+    gap: 6.5rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+section.readyMethods {
+    display: flex;
+    margin: 7.5rem auto 0 auto;
+    justify-content: center;
+}
+
+section.readyMethods div.readyMethodsText {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 11rem 0 0 6rem;
+}
+
+section.readyMethods div.readyMethodsText h2 {
+    font: 700 2.5rem var(--font-poppins);
+    width: 30rem;
+    height: 6.5rem;
+    line-height: 3rem;
+    color: var(--dark-low-color);
+    
+}
+
+section.readyMethods div.readyMethodsText p {
+    font: 500 1.2rem var(--font-montserrat);
+    width:30rem;
+    height: 5rem;;
+    color: var(--default-low-color);
+
+}
+
+section.readyMethods div.readyMethodsText button {
+    font: 500 1.2rem var(--font-montserrat);
+    color: #FFFFFF;
+    width: 12.5rem;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 16px;
+    background-color:#14BA42;
+}

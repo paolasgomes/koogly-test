@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --dark-yellow-color: #C1B815;
+    --default-yellow-color: #FFF53E;
+    --light-yellow-color: #FFFAA3;
+
+    --dark-begonia-color: #EC5160;
+    --default-begonia-color: #FF707E;
+    --light-begonia-color: #FFA3AC;
+
+    --dark-brandblue-color: #27A7B5;
+    --default-brandblue-color: #3AC6D5;
+    --light-brandblue-color: #8DDEE7;
+
+    --dark-brandpeach-color: #F7B4A1;
+    --default-brandpeach-color: #FBDAD1;
+    --light-brandpeach-color: #FDF0EC;
+
+    --dark-low-color: #292929;
+    --default-low-color: #666666;
+    --light-low-color: #A3A3A3;
+
+    --dark-high-color: #CCCCCC;
+    --default-high-color: #E0E0E0;
+    --light-high-color: #F5F5F5;
+
+    --font-poppins: 'Poppins',
+        sans-serif;
+    --font-montserrat: 'Montserrat',
+        sans-serif;
+}
+
+html {
+    font-size: 81.25%;
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+
+        font-size: 87.5%;
+    }
+}

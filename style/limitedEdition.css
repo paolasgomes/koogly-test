@@ -1,0 +1,144 @@
+section.limitedEdition {
+    background-image: url('../assets/limited-edition/bg-yellow-limitededition.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52.5rem;
+    max-width: 90rem;
+    margin: 7rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+section.limitedEdition div.limitedEditionText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 10rem;
+    z-index: 1;
+
+}
+
+section.limitedEdition div.limitedEditionText p.limitedEditionDetail {
+    font: 700 .7rem var(--font-montserrat);
+    color: white;
+    background-color: var(--default-begonia-color);
+    width: 9rem;
+    height: 1.8rem;
+    text-align: center;
+    border-radius: 120px;
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+}
+
+section.limitedEdition div.limitedEditionText h2 {
+    font: 700 3rem var(--font-poppins);
+    color: var(--dark-low-color);
+    width: 20rem;
+    height: 7.5rem;
+    line-height: 3.5rem;
+
+
+}
+
+section.limitedEdition div.limitedEditionText p.limitedEditionInfo {
+    font: 500 1rem var(--font-poppins);
+    color: var(--dark-low-color);
+    margin-bottom: 1.5rem;
+    width: 23rem;
+    height: 3.5rem;
+    line-height: 1.5rem;
+}
+
+section.limitedEdition div.limitedEditionText button {
+    font: 500 1.2rem var(--font-montserrat);
+    color: #FFFFFF;
+    width: 12.5rem;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 16px;
+    background-color: #14BA42;
+}
+
+section.limitedEdition div.limitedEditionImage {
+    position: absolute;
+    right: 0;
+}
+
+section.carouselPersons {
+    width: 90rem;
+    margin: 0 auto;
+}
+
+section.carouselPersons div.carouselPersonsTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 6.5rem;
+    margin: 8.5rem auto 0 auto;
+}
+
+section.carouselPersons div.carouselPersonsTitle h2 {
+    font: 600 2.5rem var(--font-poppins);
+    text-align: center;
+    line-height: 3rem;
+    
+}
+
+section.carouselPersons div.carouselPersonsImageTitle {
+   position: absolute;
+   top: 37px;
+ 
+}
+
+section.carouselPersons div.carouselPersonsCards {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+   margin-top: 5.5rem;
+}
+
+section.carouselPersons div.carouselPersonsCard {
+background-color:#FFFA9B;
+width: 22.5rem;
+height: 29rem;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+section.carouselPersons div.carouselPersonsCard p.carouselPersonsText {
+    font: 300 1rem var(--font-poppins);
+    line-height: 1.8rem;
+    width: 18rem;
+    height: 9rem;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+section.carouselPersons div.carouselPersonsCard img.carouselPersonsImage {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    
+}
+
+section.carouselPersons div.carouselPersonsCard h3 {
+    font: 600 1.2rem var(--font-montserrat);
+    padding-top: 1rem;
+}
+
+section.carouselPersons div.carouselPersonsCard p.carouselPersonsProfission {
+    font: 500 .7rem var(--font-montserrat);
+    padding-top: .8rem;
+    
+}
+
+section.carouselPersons div.carouselPersonsCard img.carouselPersonsImageSmile {
+    width: 8rem; 
+    height: 1.3rem;
+    padding-top: 3rem;
+}

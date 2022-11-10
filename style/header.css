@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding: 2rem 10rem 1rem 10rem;
+}
+
+header nav {
+    padding-right: 10rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 3.375rem;
+    align-items: center;
+
+}
+
+header nav ul li {
+    color: var(--default-low-color);
+    font: 400 1.2rem var(--font-poppins);
+    /* short-hand: font-style, font-variant, font-weight, font-size, font-family*/
+    padding: 2rem 0 1rem 0;
+}
+
+header nav ul li button {
+    color: white;
+    font: 400 1.2rem var(--font-poppins);
+    border: 0;
+    background-color:#FF4C5E;
+    padding: 1rem 1.5rem;
+    border-radius:16px;
+}
